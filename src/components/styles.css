@@ -1,0 +1,45 @@
+*{
+    background-color: rgb(235, 235, 229);
+}
+
+.head{
+    display: flex;
+    gap: 20px;
+    /* padding: 20px; */
+}
+Link{
+    width: 80px;
+    background-color: blue;
+}
+
+p{
+    background-color: blue;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.glass-btn {
+  padding: 14px 40px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.glass-btn:hover {
+  /* transform: scale(1.002); */
+  box-shadow: 0 12px 40px rgba(31, 38, 135, 0.6);
+}
+
+/* Active click effect */
+.glass-btn:active {
+  transform: scale(1.05);
+}
